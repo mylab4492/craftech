@@ -70,61 +70,144 @@
 
 		<div class="content" style="background-image: linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 1))" class="space-medium">
 			<div class="container text-justify">
-				<div class="row g-3">
-					<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
-						<div class="div-border ">
-							<img src="images/service-single.jpg" data-src="images/valves/butterfly_valve_1.png" alt="ButterFly Valve" class="img-fluid d-block mx-auto mb-3">
-							<div class="div-content">
-								<p class="div-p">ButterFly Valve</p>
-								<button class="div-btn" onclick="window.open('catalogue/brochure.pdf')">DOWNLOAD CATALOGUE</button>
+				<div class="container my-5">
+					<div class="accordion" id="valveAccordion">
+					
+					<!-- Start Ball Valve -->
+					<div class="product mb-3">
+					  <button id="ballBtn" class="btn w-100 text-start btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#ballCollapse" aria-expanded="true" aria-controls="ballCollapse">Ball Valve</button>
+					  <div id="ballCollapse" class="accordion-collapse collapse show mt-3" data-bs-parent="#valveAccordion">
+						<div class="card p-3">
+						  <div class="row">
+							<!-- Left: Images -->
+							<div class="col-md-8 text-center">
+								<img id="ball-main" src="images/valves/ball_valve_1.png" class="img-fluid mb-3" alt="Ball Valve">
+									<div class="d-flex justify-content-center gap-2 flex-wrap">
+									<img src="images/valves/ball_valve_1.png" class="thumb img-thumbnail" data-target="ball-main" style="width:200px; cursor:pointer;">
+									<img src="images/valves/ball_valve_2.png" class="thumb img-thumbnail" data-target="ball-main" style="width:200px; cursor:pointer;">
+									<img src="images/valves/ball_valve_3.png" class="thumb img-thumbnail" data-target="ball-main" style="width:200px; cursor:pointer;">
+								</div>
+							  
+								<!-- Start Description -->
+								  <p class="mt-5" style="text-align: justify;"> USED FOR QUICK ON/OFF CONTROL OF FLUID FLOW IN PIPELINES
+									 WIDELY USED IN OIL AND GAS, CHEMICAL, WATER TREATMENT, HVAC, AND
+									 MARINE INDUSTRIES
+									 HANDLES LIQUIDS, GASES, STEAM, AND SLURRIES EFFECTIVELY
+									 PROVIDES TIGHT SHUT-OFF WITH MINIMAL TORQUE AND EASY OPERATION
+									 I DEAL FOR APPLICATIONS REQUIRING FULL BORE AND LOW-PRESSURE DROP
+									 SUITABLE FOR HIGH-PRESSURE, HIGH-TEMPERATURE, AND CORROSIVE
+									 ENVIRONMENTS
+									 COMMON IN INDUSTRIAL PLANTS, PROCESS SYSTEMS, AND UTILITY SERVICES</p>
+								
+								<!-- End Description -->	
 							</div>
-						</div>
-					</div>
-					<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
-						<div class="div-border ">
-							<img src="images/service-single.jpg" data-src="images/valves/butterfly_valve_2.png" alt="ButterFly Valve" class="img-fluid d-block mx-auto mb-3">
-							<div class="div-content">
-								<p class="div-p">ButterFly valve</p>
-								<button class="div-btn" onclick="window.open('catalogue/borouchure.pdf')" style="div-btn">DOWNLOAD CATALOGUE</button>
+							<!-- Start Table -->
+							<div class="col-md-4">
+								<div class="specs p-3 border rounded bg-light">
+								  <h6 class="fw-bold">Type</h6>
+								  <p>Full Port / Reduced Port<br>Floating Ball / Trunnion Mounted<br>Two-piece / Three-piece / One-piece</p>
+
+								  <h6 class="fw-bold">Size Range</h6>
+								  <p>¼” to 12” (DN6 to DN300)</p>
+
+								  <h6 class="fw-bold">Pressure Class</h6>
+								  <p>ANSI Class 150 / 300 / 600<br>PN16 / PN25 / PN40</p>
+
+								  <h6 class="fw-bold">End Connections</h6>
+								  <p>Threaded (NPT/BSP)<br>Flanged (ANSI, DIN, JIS)<br>Socket Weld / Butt Weld</p>
+
+								  <h6 class="fw-bold">Body Materials</h6>
+								  <p>Stainless Steel (SS304 / SS316)<br>Carbon Steel (WCB)<br>Brass / Bronze</p>
+
+								  <h6 class="fw-bold">Ball & Seat Materials</h6>
+								  <p>Stainless Steel / Chrome Plated<br>PTFE / RPTFE / PEEK</p>
+
+								  <h6 class="fw-bold">Standards</h6>
+								  <p>
+									Design: API 6D / ISO 17292 / ASME B16.34<br>
+									Testing: API 598 / EN 12266<br>
+									Flanges: ASME B16.5 / EN 1092-1
+								  </p>
+								</div>
 							</div>
+							<!-- End of Table -->
+						  </div>
 						</div>
+					  </div>
 					</div>
-					<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
-						<div class="div-border ">
-							<img src="images/service-single.jpg" data-src="images/valves/butterfly_valve_3.png" alt="ButterFly Valve" class="img-fluid d-block mx-auto mb-3">
-							<div class="div-content">
-								<p class="div-p">ButterFly Valve</p>
-								<button class="div-btn" onclick="window.open('catalogue/brochure.pdf')">DOWNLOAD CATALOGUE</button>
+					<!-- End Ball Valve -->
+
+					<!-- Start Butterfly Valve -->
+					<div class="product mb-3">
+					  <button id="butterflyBtn" class="btn w-100 text-start btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#butterflyCollapse" aria-expanded="true" aria-controls="ballCollapse">Butterfly Valve</button>
+					  <div id="butterflyCollapse" class="accordion-collapse collapse mt-3" data-bs-parent="#valveAccordion">
+						<div class="card p-3">
+						  <div class="row">
+							<!-- Left: Images -->
+							<div class="col-md-8 text-center">
+								<img id="butterfly-main" src="images/valves/butterfly_valve_1.png" class="img-fluid mb-3" alt="Butterfly Valve">
+									<div class="d-flex justify-content-center gap-2 flex-wrap">
+									<img src="images/valves/butterfly_valve_1.png" class="thumb img-thumbnail" data-target="butterfly-main" style="width:200px; cursor:pointer;">
+									<img src="images/valves/butterfly_valve_2.png" class="thumb img-thumbnail" data-target="butterfly-main" style="width:200px; cursor:pointer;">
+									<img src="images/valves/butterfly_valve_3.png" class="thumb img-thumbnail" data-target="butterfly-main" style="width:200px; cursor:pointer;">
+								</div>
+							  
+								<!-- Start Description -->
+								<p class="mt-5" style="text-align: justify;">  USED FOR ISOLATING OR REGULATING FLOW IN LARGE-DIAMETER PIPELINES
+									 COMMON IN WATER DISTRIBUTION, WASTEWATER TREATMENT, HVAC, FIRE
+									 PROTECTION, AND MARINE SYSTEMS
+									 SUITABLE FOR LIQUIDS, GASES, AND SLURRIES
+									 I DEAL FOR LOW-PRESSURE, LOW-TORQUE, AND SPACE-CONSTRAINED
+									 APPLICATIONS
+									 PREFERRED IN SYSTEMS REQUIRING QUICK OPERATION AND LIGHTWEIGHT
+									 VALVES
+									 WIDELY USED IN POWER PLANTS, CHEMICAL INDUSTRIES, AND PROCESS SYSTEMS
+									 NOT SUITABLE FOR HIGH-PRESSURE THROTTLING IN ABRASIVE SERVICES
+								</p>
+								
+								<!-- End Description -->	
 							</div>
-						</div>
-					</div>
-					<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
-						<div class="div-border ">
-							<img src="images/service-single.jpg" data-src="images/valves/ball_valve_1.png" alt="Ball Valve" class="img-fluid d-block mx-auto mb-3">
-							<div class="div-content">
-								<p class="div-p">Ball Valve</p>
-								<button class="div-btn" onclick="window.open('catalogue/brochure.pdf')">DOWNLOAD CATALOGUE</button>
+							<!-- Start Table -->
+							<div class="col-md-4">
+								<div class="specs p-3 border rounded bg-light">
+								  <h6 class="fw-bold">Type</h6>
+								  <p> WAFER / LUG / DOUBLE FLANGED / UTYPE <br> CONCENTRIC / DOUBLE OFFSET / TRIPLE OFFSET</p>
+
+								  <h6 class="fw-bold">Size Range</h6>
+								  <p>2” TO 72” (DN50 TO DN1800)</p>
+
+								  <h6 class="fw-bold">Pressure Class</h6>
+								  <p>ANSI CLASS 150 / 300<br>PN10 / PN16 / PN25</p>
+
+								  <h6 class="fw-bold">End Connections</h6>
+								  <p>WAFER / LUG / FLANGED / BUTT WELD</p>
+
+								  <h6 class="fw-bold">Body Materials</h6>
+								  <p>CAST IRON / DUCTILE IRON<br>Carbon Steel (WCB)<br>STAINLESS STEEL (SS304 / SS316)<br> ALUMINUM BRONZE</p>
+
+								  <h6 class="fw-bold">Seat Materials</h6>
+								  <p>EPDM / NBR / PTFE / VITON<br> METAL SEATED</p>
+
+								  <h6 class="fw-bold">Standards</h6>
+								  <p>
+									Design:  API 609 / ISO 5752 / EN 593<br>
+									Testing: API 598 / EN 12266<br>
+									Flanges: ASME B16.5 / EN 1092-1
+								  </p>
+								</div>
 							</div>
+							<!-- End of Table -->
+						  </div>
 						</div>
+					  </div>
 					</div>
-					<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
-						<div class="div-border ">
-							<img src="images/service-single.jpg" data-src="images/valves/ball_valve_2.png" alt="Ball Valve" class="img-fluid d-block mx-auto mb-3">
-							<div class="div-content">
-								<p class="div-p">Ball Valve</p>
-								<button class="div-btn" onclick="window.open('catalogue/brochure.pdf')">DOWNLOAD CATALOGUE</button>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
-						<div class="div-border ">
-							<img src="images/service-single.jpg" data-src="images/valves/ball_valve_3.png" alt="Ball Valve" class="img-fluid d-block mx-auto mb-3">
-							<div class="div-content">
-								<p class="div-p">Ball Valve</p>
-								<button class="div-btn" onclick="window.open('catalogue/brochure.pdf')">DOWNLOAD CATALOGUE</button>
-							</div>
-						</div>
-					</div>
+					<!-- End Butterfly Valve -->
+					
+				</div>
+			</div>
+
+
+				<div class="row">
 					<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
 						<div class="div-border ">
 							<img src="images/service-single.jpg" data-src="images/valves/control_valve_1.png" alt="Control Valve" class="img-fluid d-block mx-auto mb-3">
@@ -465,6 +548,8 @@
 			<p>© 2025 CrafTech. Designed by <a href="https://buraqinfotech.in">Buraqinfotech</a></p>
 		  </div>
 		</div>
+		<!-- Bootstrap 5 JS -->
+		<script src="js/bootstrap.bundle.min.js"></script>
 	</body>
 </html>
 <!-- js for image -->
@@ -478,4 +563,27 @@
 	}
 }
 window.onload = init;
+
+//for each valveAccordion
+
+  // Thumbnail image switcher
+  document.querySelectorAll('.thumb').forEach(thumb => {
+    thumb.addEventListener('click', function () {
+      let target = document.getElementById(this.dataset.target);
+      target.src = this.src;
+    });
+  });
+
+  // Change button colors on accordion toggle
+  document.querySelectorAll('.accordion-collapse').forEach(collapse => {
+    collapse.addEventListener('show.bs.collapse', function () {
+      let btn = this.previousElementSibling;
+      document.querySelectorAll('.accordion button').forEach(b => {
+        b.classList.remove('btn-primary');
+        b.classList.add('btn-secondary');
+      });
+      btn.classList.remove('btn-secondary');
+      btn.classList.add('btn-primary');
+    });
+  });
 </script>
