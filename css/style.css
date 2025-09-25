@@ -106,12 +106,20 @@ body {
 .card-custom {
   border: 2px solid #0A3D62;
   border-radius: 12px;
-  transition: transform 0.3s, box-shadow 0.3s;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  cursor: pointer;
 }
+
 .card-custom:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  transform: translateY(-5px) scale(1.03);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
 }
+
+.card-custom:active {
+  transform: scale(0.9) translateY(6px); /* deep push */
+  box-shadow: inset 0 4px 12px rgba(0,0,0,0.3); /* inside shadow */
+}
+
 
 .footer {
   background-color: #0A3D62;
