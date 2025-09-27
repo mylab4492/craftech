@@ -104,7 +104,7 @@ body {
   margin-bottom: 1.5rem;
 }
 .card-custom {
-  border: 2px solid #0A3D62;
+  background-color: #EDDA96;
   border-radius: 12px;
   transition: transform 0.15s ease, box-shadow 0.15s ease;
   cursor: pointer;
@@ -118,6 +118,12 @@ body {
 .card-custom:active {
   transform: scale(0.9) translateY(6px); /* deep push */
   box-shadow: inset 0 4px 12px rgba(0,0,0,0.3); /* inside shadow */
+}
+.card-dark {
+  background-color: #372C0D;
+  border-radius: 12px;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  cursor: pointer;
 }
 
 
