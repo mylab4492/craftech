@@ -121,6 +121,11 @@ body {
 }
 
 
+.tiny-header {
+  background-color: #372C0D;
+  color: #fff;
+}
+
 .footer {
   background-color: #0A3D62;
   color: #fff;
@@ -368,7 +373,7 @@ label { }
    ----------------------*/
 
 .logo { }
-.header { background-color: #fff; z-index: 9999; position: relative; padding-top: 20px; padding-bottom: 20px; }
+.header { background-color: #D1CBCB; z-index: 9999; position: relative; }
 .header-top { background-color: #0eb769; font-size: 15px; padding-top: 11px; padding-bottom: 11px; line-height: 15px; color: #fff; font-weight: 500; }
 .top-text { text-align: right; }
 .top-text .text-block { padding-left: 20px; color: #fff; line-height: 18px; }
@@ -476,7 +481,7 @@ box-shadow: 0px 2px 6px 0px rgba(230,230,230,1);}
 /*-----------------------------------
 8. Footer 
 -------------------------------------*/
-.footer { background-color: #4B4B4B; padding-top: 100px; padding-bottom: 10px; }
+.footer { background-color: #9F8F5F; padding-top: 50px; padding-bottom: 40px; }
 .footer-widget p { color: #676f6c; }
 .footer-widget .widget-title { color: #fff; font-weight: 300; font-size:16px; letter-spacing: 2px;  padding-top: 1px; margin-top: 1px; }
 .footer-widget { }
@@ -496,7 +501,7 @@ box-shadow: 0px 2px 6px 0px rgba(230,230,230,1);}
 .widget-newsletter button { height: 48px; }
 
 /*-------------- tiny footer ------------*/
-.tiny-footer { background-color: #0A3D62; padding-top: 9px; padding-bottom: 9px; font-size: 12px; color: #fff; text-align: left; text-transform: uppercase; text-align: center; }
+.tiny-footer { background-color: #372C0D; padding-top: 9px; padding-bottom: 9px; font-size: 12px; color: #fff; text-align: left; text-transform: uppercase; text-align: center; }
 .copyright-content { border-top: 1px solid #424544; padding: 12px; color: #fff; }
 
 /*-----------------------------------
