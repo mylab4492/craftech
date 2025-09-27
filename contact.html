@@ -220,7 +220,6 @@
 <script>
 document.getElementById("contactForm").addEventListener("submit", async function(e) {
     e.preventDefault();
-
     const form = e.target;
     const sendBtn = document.getElementById("sendBtn");
     const btnText = document.getElementById("btnText");
@@ -234,7 +233,7 @@ document.getElementById("contactForm").addEventListener("submit", async function
     formMessage.innerHTML = "";
 
     try {
-        let response = await fetch("https://fruit-box.co.in/sadiq/send-mail.php", {
+        let response = await fetch("https://fruit-box.co.in/sadiq/craftech-send-mail.php", {
             method: "POST",
             body: new FormData(form)
         });
